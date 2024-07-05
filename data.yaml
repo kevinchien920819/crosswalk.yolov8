@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Flexible_delineator_post', 'bus', 'car', 'chair', 'crosswalk', 'motocycle', 'pedestrian', 'trunk']
+
+roboflow:
+  workspace: project-4wtbq
+  project: crosswalk-g868a
+  version: 27
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-4wtbq/crosswalk-g868a/dataset/27
